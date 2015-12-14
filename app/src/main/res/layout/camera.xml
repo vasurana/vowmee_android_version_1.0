@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextureView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/surface_view" />
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_switch_camera"
+            android:layout_gravity="bottom|left"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/stat_notify_sync_noanim"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_flash"
+        android:layout_gravity="bottom|right"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:src="@android:drawable/ic_lock_idle_low_battery"/>
+</FrameLayout>

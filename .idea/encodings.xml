@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/xvidia/vowmee/MyApplication.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/xvidia/vowmee/RecordVideo.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/xvidia/vowmee/camera/CameraHelper.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/xvidia/vowmee/camera/MediaCodecWrapper.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/xvidia/vowmee/network/IAPIConstants.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/xvidia/vowmee/network/ServiceURL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/xvidia/vowmee/network/ServiceURLManager.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/xvidia/vowmee/network/VolleySingleton.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/camera.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
