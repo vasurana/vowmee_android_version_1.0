@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/followers_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:subtitleTextColor="@android:color/white"
+        android:titleTextColor="@android:color/white"
+        android:theme="@style/ThemeOverlay.MyApp.ActionBar"
+        style="@style/Widget.MyApp.Toolbar.Solid"
+        app:layout_scrollFlags="scroll|enterAlways"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#d9d9d9"
+        android:dividerHeight="1dp" />
+    </LinearLayout>

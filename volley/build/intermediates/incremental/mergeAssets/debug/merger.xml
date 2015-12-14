@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\Android\Android Code\AndroidStudioWorkspace\VowMee\volley\src\main\assets"/></dataSet><dataSet config="debug"><source path="E:\Android\Android Code\AndroidStudioWorkspace\VowMee\volley\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/vasu/vowmee_android_version_1.0/volley/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/vasu/vowmee_android_version_1.0/volley/src/debug/assets"/></dataSet></merger>

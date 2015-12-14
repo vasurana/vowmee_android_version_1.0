@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VowMee.iml" filepath="$PROJECT_DIR$/VowMee.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vowmee_android_version_1.0.iml" filepath="$PROJECT_DIR$/vowmee_android_version_1.0.iml" />
     </modules>
   </component>
 </project>
