@@ -8,7 +8,7 @@
     android:background="@android:color/white">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/followers_toolbar"
+        android:id="@+id/following_toolbar"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:minHeight="?attr/actionBarSize"
@@ -19,7 +19,7 @@
         app:layout_scrollFlags="scroll|enterAlways"/>
 
     <ListView
-        android:id="@+id/followersList"
+        android:id="@+id/followingList"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:divider="#d9d9d9"
@@ -27,4 +27,4 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:dividerHeight="1dp" />
-    </LinearLayout>
+</LinearLayout>

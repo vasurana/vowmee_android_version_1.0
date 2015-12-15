@@ -1,5 +1,8 @@
 package net.xvidia.vowmee;
 
+/**
+ * Created by root on 15/12/15.
+ */
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
@@ -10,16 +13,16 @@ import java.util.ArrayList;
 /**
  * Created by root on 14/12/15.
  */
-public class Followers extends ActionBarActivity{
+public class Following extends ActionBarActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_followers);
+        setContentView(R.layout.activity_following);
 
         // Set a toolbar to replace the action bar.
-        Toolbar toolbar = (Toolbar) findViewById(R.id.followers_toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.following_toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Followers");
+        getSupportActionBar().setTitle("Following");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
@@ -47,7 +50,7 @@ public class Followers extends ActionBarActivity{
         MyCustomAdapter adapter = new MyCustomAdapter(list, this);
 
         //handle listview and assign adapter
-        ListView lView = (ListView)findViewById(R.id.followersList);
+        ListView lView = (ListView)findViewById(R.id.followingList);
         lView.setAdapter(adapter);
     }
 }

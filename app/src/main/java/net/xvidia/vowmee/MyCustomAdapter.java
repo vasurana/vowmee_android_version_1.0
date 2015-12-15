@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class MyCustomAdapter extends BaseAdapter implements ListAdapter {
     private ArrayList<String> list = new ArrayList<String>();
     private Context context;
-
+    static boolean mFollowing = false;
 
 
     public MyCustomAdapter(ArrayList<String> list, Context context) {
@@ -50,19 +50,28 @@ public class MyCustomAdapter extends BaseAdapter implements ListAdapter {
             view = inflater.inflate(R.layout.activity_followers_single_listitem, null);
         }
 
-        //Handle TextView and display string from your list
         TextView listItemText = (TextView)view.findViewById(R.id.follower_name);
         listItemText.setText(list.get(position));
-        ImageView addBtn = (ImageView)view.findViewById(R.id.icon);
+        ImageView userPicture = (ImageView)view.findViewById(R.id.icon);
 
         //Handle buttons and add onClickListeners
-        Button follow = (Button)view.findViewById(R.id.follow);
+        final Button follow = (Button)view.findViewById(R.id.follow);
 
-        follow.setOnClickListener(new View.OnClickListener(){
+        follow.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View v) {
-                //do something
-
+            public void onClick(View v)
+            {
+                if (!mFollowing)
+                {
+                    mFollowing = true;
+                    follow.setText("Unfollow");
+                }
+                else
+                {
+                    mFollowing = false;
+                    follow.setText("Follow");
+                }
             }
         });
 
